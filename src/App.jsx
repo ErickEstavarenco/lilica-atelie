@@ -1,7 +1,17 @@
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Products from "./components/Products"
+import About from "./components/About"
+import Footer from "./components/Footer"
+
 export default function App() {
   return (
-    <div className="bg-red-500 text-white p-6">
-      Tailwind funcionando 🌿
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <Products />
+      <About />
+      <Footer />
+    </>
   )
 }
